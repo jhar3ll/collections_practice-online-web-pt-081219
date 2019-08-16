@@ -89,7 +89,7 @@ def add_s(array)
    if index == 1 
      return element
   else 
-    element + "s"
+    return element + "s"
     
   end
  end
