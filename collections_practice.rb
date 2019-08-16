@@ -87,9 +87,9 @@ def add_s(array)
   
  array.each_with_index.collect do |element, index| 
    if index !== 1 
-     return element
+     element + "s"
   else 
-    return element + "s"
+    return element 
     
   end
  end
